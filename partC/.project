@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>partC</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/partC/day19/review/Animal.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/review/Animal.java</location>
+		</link>
+		<link>
+			<name>src/partC/day19/review/AnimalCommunity.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/review/AnimalCommunity.java</location>
+		</link>
+		<link>
+			<name>src/partC/day19/review/AnimalCommunity2.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/review/AnimalCommunity2.java</location>
+		</link>
+		<link>
+			<name>src/partC/day19/review/Cat.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/review/Cat.java</location>
+		</link>
+		<link>
+			<name>src/partC/day19/review/Member.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/review/Member.java</location>
+		</link>
+		<link>
+			<name>src/partC/day19/review/Puppy.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/review/Puppy.java</location>
+		</link>
+		<link>
+			<name>src/partC/day19/review/Rabbit.java</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/review/Rabbit.java</location>
+		</link>
+		<link>
+			<name>src/partC/day19/review/day9b_시나리오.txt</name>
+			<type>1</type>
+			<location>C:/Users/Administrator/Documents/카카오톡 받은 파일/day9b_시나리오.txt</location>
+		</link>
+		<link>
+			<name>src/partC/day22/example/Customer.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/partC/day22/example/example/Customer.java</locationURI>
+		</link>
+		<link>
+			<name>src/partC/day22/example/CustomerAddressBook.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/partC/day22/example/example/CustomerAddressBook.java</locationURI>
+		</link>
+		<link>
+			<name>src/partC/day22/example/CustomerApp.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/partC/day22/example/example/CustomerApp.java</locationURI>
+		</link>
+		<link>
+			<name>src/partC/day22/example/CustomerNote.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/partC/day22/example/example/CustomerNote.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

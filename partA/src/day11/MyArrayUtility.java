@@ -20,32 +20,42 @@ public class MyArrayUtility {
 		k=2;
 		System.out.println("2. 지정된 인덱스로 데이터 제거 결과");
 		dataRemove(numbers,k);
+		numbers[numbers.length-1]=0;
+		numbers[numbers.length-2]=23;
+		numbers[numbers.length-3]=89;
 		numbers[numbers.length-4]=34;
-		numbers[numbers.length-3]=999;
+		numbers[numbers.length-5]=999;
 		System.out.println(Arrays.toString(numbers));
 		
 		k=3;
 		System.out.println("3. 지정된 인덱스로 데이터 제거 결과");
 		dataRemove(numbers,k);
+		numbers[numbers.length-1]=0;
+		numbers[numbers.length-2]=0;
+		numbers[numbers.length-3]=23;
+		numbers[numbers.length-4]=89;
+		numbers[numbers.length-5]=999;
 		System.out.println(Arrays.toString(numbers));
 		
 		System.out.println("4. 지정된 인덱스와 값으로 데이터 중간 삽입 결과");
 		k=4;     value=99;
 		dataAdd(numbers,k,value);
+		numbers[numbers.length-1]=0;
+		numbers[numbers.length-2]=23;
+		numbers[numbers.length-3]=99;
+		numbers[numbers.length-4]=89;
+		numbers[numbers.length-5]=999;
 		System.out.println(Arrays.toString(numbers));
 		
 		System.out.println("5. 지정된 인덱스와 값으로 데이터 중간 삽입 결과");
-		
-		dataAdd(numbers,k,value);
-		System.out.println(Arrays.toString(numbers));
-		
+		k=5;     value=9999;
 		numbers[numbers.length-5]=999;
-		System.out.println(Arrays.toString(numbers));
 		numbers[numbers.length-4]=9999;
-		System.out.println(Arrays.toString(numbers));
+		numbers[numbers.length-3]=89;
 		numbers[numbers.length-2]=99;
-		System.out.println(Arrays.toString(numbers));
 		numbers[numbers.length-1]=23;
+		dataAdd(numbers,k,value);
+		
 		System.out.println(Arrays.toString(numbers));
 		
 		        //추가 : 맨 뒤에 넣기, **삽입 : 순서가 있을 때 중간에 넣기
